@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: General Sans Medium;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    width: 100%;
+}
+
+#home{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
+#nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#nav{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 30px 40px;
+}
+
+#heading h1{
+    margin: 0px 30px;
+    opacity: .6;
+    line-height: 1;
+    font-size: 10vw;
+    font-weight: 500;
+}
+
+#heading{
+    color: white;
+    margin-top: 40px;
+}
+#heading #nalla{
+    margin-left: 160px;
+}
+
+.blocktext{
+    width: fit-content;
+}
+
+.blocktext h5{
+    text-align: right;
+    padding-right: 30px;
+    font-size: 17px;
+    font-weight: 200;
+}
+
+#smally{
+    margin-top: 8vw;
+    font-size: 1.8vw;
+    text-align: right;
+    padding-right: 30px;
+}
+
+#smally h5{
+    font-weight: 150;
+}
+
+#home2{
+    height: 238vh;
+    width: 100%;
+    background-color: black;
+}
+
+#homefooter{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    align-items: center;
+}
+
+#homefooter a{
+    text-decoration: none;
+    color: white;
+}
+
+.bekar{
+    display: flex;
+    flex-direction: column;
+}
+
+#homefooter .circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: grey;
+}
+
+#homefooter #iconset{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+#dabbe{
+    margin-top: 12vw;
+    width: 100%;
+    padding-right: 10vw;
+    padding-left: 4vw;
+    opacity: .5;
+}
+
+#home2 .dabba{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    border-top: 1px solid white;
+}
+ 
+.dabba h1{
+    font-size: 6.8vw;
+    text-transform: uppercase;
+    font-weight: 200;
+    padding: 3vw 0vw;
+}
+
+#neech{
+    border-bottom: 1px solid white;
+}
+
+#btn{
+    padding-top: 45px;
+    padding-left: 4vw;
+}
+
+#btn a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50px;
+    font-size: 18px;
+    padding: 16px;
+}
+
+#home3{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+#home3 .titu{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding: 4vw 0px;
+    opacity: .5;
+}
+
+#fizul{
+    font-weight: 20;
+    font-size: 2vw;
+}
+
+#home4{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    background-color: black;
+}
+
+#img{
+    width: 55%;
+}
+#img img{
+    height: 16vw;
+    padding-left: 33vw;
+}
+.faltu{
+    opacity: .5;
+    font-size: 15px;
+}
+
+#info{
+    width: 45%;
+    font-size: 1.6vw;
+    padding-right: 8vw;
+}
+
+#info h5{
+    font-weight: 200;
+}
+
+#home4 #info a{
+    border: 1px solid white;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 3px 15px;
+}
+
+#nalle{
+    font-weight: 100;
+}
